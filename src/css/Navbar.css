@@ -1,0 +1,61 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    width: 100%;
+    padding: 0 80px;
+    color: white;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.navbar .logo {
+    height: 45px;
+    aspect-ratio: 1;
+}
+
+.navbar .title {
+    font-size: 22px;
+    margin: 0 3px;
+    margin-bottom: 6px;
+}
+
+.navbar .nav-components {
+    display: flex;
+    justify-content: space-around;
+    min-width: 600px;
+    margin-left: auto;
+    list-style: none;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar .nav-components .nav-component {
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.navbar .nav-components a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar .nav-component .dropdown-arrowhead {
+    color: white;
+    font-size: 10px;
+}
+
+.navbar .nav-component.new-tag::before {
+    content: "new";
+    color: rgb(129, 0, 0);
+    font-size: 12px;
+    padding: 3px;
+}
+
+.navbar .nav-component.dark {
+    background-color: rgb(256, 256, 256, 0.4);
+}
+
+.navbar .nav-component.dark:hover {
+    background-color: rgb(256, 256, 256, 0.3);
+}
