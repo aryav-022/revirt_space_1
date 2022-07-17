@@ -8,7 +8,7 @@ export default function Home() {
 
     <section className='first-section'>
       <div className="content">
-        <div className='build-your-own-working-space-in-minutes'>build your own <span className='bold'>working space</span> in minutes. is the update visible?</div>
+        <div className='build-your-own-working-space-in-minutes'>build your own <span className='bold'>working space</span> in minutes</div>
         <div style={{fontSize: "25px"}}><span style={{fontSize: "35px"}}>revirt</span> for better</div>
         <div className='bold' style={{fontSize: "35px"}}>collaboration</div>
         <div className='para'>
