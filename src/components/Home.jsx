@@ -4,7 +4,7 @@ import "../css/Home.css";
 export default function Home() {
   return (
     <>
-    <a className="queries" href='#'>got queries? get in touch with us</a>
+    <a className="queries" href='https://revirt-space.netlify.app'>got queries? get in touch with us</a>
 
     <section className='first-section'>
       <div className="content">
